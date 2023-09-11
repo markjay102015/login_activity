@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image" href="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/281444864_1070941596964755_4360011036372791026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFRjNW4j-fzHKq-Was6Xwuqw_CYT45clKnD8JhPjlyUqe7Kejts53xlgdNEkGxowxi0C-yGWZx7M31Urp2qvD56&_nc_ohc=AxjCDEx3Z3UAX8VXQVe&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfD_klS7J4-8-al4tzUy_dIWNmnw_Ln94gHHGAQZEdm78Q&oe=64F79FD9">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- header+nav -->
+    <div class="fixed-top">
+        <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/281444864_1070941596964755_4360011036372791026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFRjNW4j-fzHKq-Was6Xwuqw_CYT45clKnD8JhPjlyUqe7Kejts53xlgdNEkGxowxi0C-yGWZx7M31Urp2qvD56&_nc_ohc=AxjCDEx3Z3UAX8VXQVe&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfD_klS7J4-8-al4tzUy_dIWNmnw_Ln94gHHGAQZEdm78Q&oe=64F79FD9"
+                    alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item nav-item-css">
+                            <a class="nav-link" aria-current="page" href=""><i class="fas fa-home"></i>
+                                Home</a>
+                        </li>
+                        <li class="nav-item nav-item-css">
+                            <a class="nav-link" href=""><i class="bi bi-book"></i>
+                                About Us</a>
+                        </li>
+                        <li class="nav-item dropdown nav-item-css">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-menu-down"></i>
+                                Category
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="">Converter</a></li>
+                                <li><a class="dropdown-item" href="">Calculator</a></li>
+                                <li><a class="dropdown-item" href="">Christmas Tree</a></li>
+                                <li><a class="dropdown-item" href="">Paper,Rock,Scissors</a></li>
+                                <li><a class="dropdown-item" href="">To Be Follow</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item nav-item-css">
+                            <a class="nav-link" href=""><i class="bi bi-telephone-forward"></i> Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+
+                            <a class="nav-link nav-item-css" href=""><i class="fas fa-user"></i>
+                                Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-item-css active" href=""><i class="fas fa-lock"></i> Login</a>
+                        </li><span>
+                        <form class="d-flex">
+                            <input class="form-control me-1 ms-2" style="width:180px;" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Search <i class="bi bi-search"></i></button>
+                        </form></span>
+                    </ul>
+
+                </div>
+        </nav>
+    </div>
+    <!-- End of Nav -->
+    <!-- log in form -->
+    <div class="mt-5">
+        <div>
+            <section class="gradient-custom">
+                <div class="card-body py-5 px-md-5">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                            <div class="card bg-white text-black" style="border-radius: 1rem;">
+                                <div class="card-body p-5 ">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-lg-8">
+                                        <h2 class="fw-bold mb-2 text-center"><i class="fas fa-user"></i>
+                                        Sign in</h2>
+                                        <p class="text-black-70 mb-2 text-center">Please enter your login and password!</p>
+                                    <form class="log_form" action="" method="get" name="form" onsubmit="return validated()">
+                                        <div class="form-outline mb-3 fw-bold">
+                                            <label class="form-label" for="form3"></label>
+                                            <input type="email" autocomplete="off" id="form3" class="form-control" placeholder="Email or Phone" required />
+                                        </div>
+
+                                        <!-- Password input -->
+                                        <div class="form-outline mb-3 fw-bold">
+                                            <label class="form-label" for="form3Example4"></label>
+                                            <input type="password" id="form4" class="form-control" placeholder="Input Password"
+                                                required />
+                                        </div>
+
+                                        <!-- Checkbox -->
+                                        <div class="form-check d-flex justify-content-center mb-4">
+                                            <input class="form-check-input me-2" type="checkbox" value=""
+                                                id="form2Example33" checked />
+                                            <label class="form-check-label" for="form2Example33">
+                                                Remember Me
+                                            </label>
+                                        </div>
+
+                                        <!-- Submit button -->
+                                        <div class="text-center"> 
+                                            <button type="submit" class="btn btn-primary btn-block mb-3">
+                                            Login
+                                            </button><br>
+                                            <a href="#">Forgot Password?</a>
+                                            <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="registerform.html"
+                                                class="link-primary">Register</a>
+                                            </p>
+                                        </div>
+
+                                        <!-- Register buttons -->
+                                        <div class="text-center">
+                                            <p>or sign in with:</p>
+                                            <a href="https://www.facebook.com/">
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-facebook-f"></i></a>
+                                            </button>
+
+                                            <a href="https://mail.google.com/">
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-google"></i></a>
+                                            </button>
+
+                                            <a href="https://twitter.com/">
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-twitter"></i></a>
+                                            </button>
+
+                                            <a href="https://github.com/">
+                                            <button type="button" class="btn btn-link btn-floating mx-1">
+                                                <i class="fab fa-github"></i></a>
+                                            </button>
+                                        </div>
+                                    </form>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- footer -->
+    <div>
+        <footer class="container-fluid">
+            <div class="footer-wrap">
+                <div class="container first_class">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <h3>BE THE FIRST TO KNOW</h3>
+                            <p>Get all the latest information on ECA Shop.</p>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <form class="newsletter">
+                                <input type="text" placeholder="Email Address">
+                                <button class="newsletter_submit_btn" type="submit"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </form>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="col-md-12">
+                                <div class="standard_social_links">
+                                    <div>
+                                        <li class="round-btn btn-facebook"><a href="https://www.facebook.com/"><i
+                                                    class="fab fa-facebook-f"></i></a>
+
+                                        </li>
+
+                                        <li class="round-btn btn-twitter"><a href="https://twitter.com/"><i
+                                                    class="fab fa-twitter" aria-hidden="true"></i></a>
+
+                                        </li>
+                                        <li class="round-btn btn-instagram"><a href="https://www.instagram.com/"><i
+                                                    class="fab fa-instagram" aria-hidden="true"></i></a>
+
+                                        </li>
+                                        <li class="round-btn btn-envelop"><a href="https://mail.google.com/"><i
+                                                    class="fa fa-envelope" aria-hidden="true"></i></a>
+
+                                        </li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-md-12">
+                                <h3 style="text-align: center;">Stay Connected</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="second_class">
+                    <div class="container second_class_bdr">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+
+                                <div class="footer-logo"><img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/281444864_1070941596964755_4360011036372791026_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=1b51e3&_nc_eui2=AeFRjNW4j-fzHKq-Was6Xwuqw_CYT45clKnD8JhPjlyUqe7Kejts53xlgdNEkGxowxi0C-yGWZx7M31Urp2qvD56&_nc_ohc=AxjCDEx3Z3UAX8VXQVe&_nc_ht=scontent.fmnl8-3.fna&oh=00_AfD_klS7J4-8-al4tzUy_dIWNmnw_Ln94gHHGAQZEdm78Q&oe=64F79FD9" height="200px" width="200px"
+                                        alt="logo">
+                                </div>
+                                <p>WD83P Kodego Activities</p>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <h3>Quick LInks</h3>
+                                <ul class="footer-links">
+                                    <li><a href="index.html">Home</a>
+                                    </li>
+                                    <li><a href="">About us</a>
+                                    </li>
+                                    <li><a href="">Activity</a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <h3>Help Center</h3>
+                                <ul class="footer-category">
+                                    </li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <h3>Contact and Email</h3>
+                                <ul class="footer-links">
+                                    <li class="text-light">872-223-6789 | 872-345-6784
+                                    </li>
+                                    <li class="text-light">Email : abcdjkl@hotmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            Copyright 2020 | All Rights Reserved by WD83P kodego.
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
